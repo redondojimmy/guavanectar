@@ -1,0 +1,46 @@
+nav {
+	background: #ff8533;
+	height: 60px;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 100;
+}
+nav > a {
+	color:  #ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 26px;
+	font-weight: 700;
+	left: 25px;
+	position: absolute;
+	text-align: left;
+	text-decoration: none;
+	top: 10px;
+}
+nav span {
+	font-family: 'Open Sans', sans-serif;
+	color:  #cfc91d;
+	text-align: left;
+}
+nav ul {
+	position: absolute;
+	right: 25px;
+	top:5px;
+}
+nav li {
+	display: inline-block;
+	padding:0 15px;
+}
+nav li > a {
+	color: #fff;
+	text-decoration: none;
+  /*transition property allows you to expand elements or warp them over a specified time*/
+	-webkit-transition: all 0.3s ease-in-out;
+	        transition: all 0.3s ease-in-out;
+}
+/*Hover allows the element to change when the mouse hovers over it.*/
+nav li > a:hover,
+nav li > a:focus {
+	color: #cfc91d;
+}
