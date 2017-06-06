@@ -1,5 +1,5 @@
 nav {
-	background: #EE3472;
+	background: #FA48E2;
 	height: 60px;
 	left: 0;
 	position: fixed;
@@ -47,13 +47,43 @@ header {
 	margin-top: 60px;
 	height: 10px;
 }
+
 input {
-	background-image: url('img/search.png');
+	background-image: url(img/searchicon.png) right no-repeat;
 	background-position: 10px 10px;
-	background-color: lightgrey;
+	background-color: #fff;
 	width:20%;
 	height: 24px;
 	left: 1018px;
 	top:100px;
 	position: ;
+}
+.one {
+	background-color: #fff;
+	 margin: 0 auto;
+	 width: 100%;
+	 height: 600px;
+}
+img {
+	height: 500px;
+	width: 500px;
+	padding-left: 100px;
+}
+.block1 {
+	float: left;
+	margin: 3% 0;
+	padding-left: 100px;
+	padding-bottom: 100px;
+	width: 40%;
+}
+.block2 {
+	float: right;
+	margin: 3% 0;
+	padding-left: 100px;
+	width: 40%;
+}
+footer {
+	width: 100%;
+	background-color: #2B7A17;
+	height: 100px;
 }
