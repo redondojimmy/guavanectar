@@ -40,7 +40,7 @@ nav li > a {
 
 nav li > a:hover,
 nav li > a:focus {
-	color: #988428;
+	color: blue;
 }
 header {
 	background-color: #2B7A17;
@@ -48,16 +48,6 @@ header {
 	height: 10px;
 }
 
-input {
-	background-image: url(img/searchicon.png) right no-repeat;
-	background-position: 10px 10px;
-	background-color: #fff;
-	width:20%;
-	height: 24px;
-	left: 1018px;
-	top:100px;
-	position: ;
-}
 .one {
 	background-color: #fff;
 	 margin: 0 auto;
@@ -77,13 +67,52 @@ img {
 	width: 40%;
 }
 .block2 {
-	float: right;
-	margin: 3% 0;
-	padding-left: 100px;
+	float: left;
+	margin: 0 auto;
+	padding-top: 0;
 	width: 40%;
+}
+.search-box-wrapper {
+display: inline-flex;
+font-size: 10px;
+height: 30px;
+}
+.search-box-input {
+font-size: inherit;
+background-color: lightgrey;
+
+}
+.search-box-button {
+	font-size: inherit;
+	background-color: lightgrey;
+
+}
+i {
+	font-size: 20px;
+}
+p {
+	margin: 0 auto;
+	padding-left: 25px;
+	font-size: 37px;
+}
+sup {
+	font-size: 20px;
+}
+p span {
+	color: #FA48E2;
+}
+span.web {
+	color: #26C7FD;
+}
 }
 footer {
 	width: 100%;
 	background-color: #2B7A17;
 	height: 100px;
+}
+button.quote {
+
+}
+button.case {
+
 }
